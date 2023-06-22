@@ -2,7 +2,6 @@ package com.interviewplanning.model.period.services.validation.chain;
 
 import com.interviewplanning.model.period.services.TimeService;
 import java.time.LocalTime;
-
 import lombok.NoArgsConstructor;
 
 /**

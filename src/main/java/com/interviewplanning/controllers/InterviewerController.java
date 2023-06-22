@@ -15,7 +15,6 @@ import com.interviewplanning.model.user.UserService;
 import com.interviewplanning.model.week.WeekService;
 import com.interviewplanning.security.JwtUserDetails;
 import java.util.List;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

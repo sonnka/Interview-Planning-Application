@@ -2,7 +2,6 @@ package com.interviewplanning.model.user;
 
 
 import com.fasterxml.jackson.annotation.JsonPropertyOrder;
-
 import java.util.Objects;
 import javax.persistence.Column;
 import javax.persistence.Entity;

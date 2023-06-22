@@ -2,7 +2,6 @@ package com.interviewplanning.model.candidateslot;
 
 import com.interviewplanning.model.booking.Booking;
 import com.interviewplanning.model.period.Period;
-
 import java.time.LocalDate;
 import java.util.HashSet;
 import java.util.Objects;
@@ -16,7 +15,6 @@ import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 import javax.persistence.OneToMany;
 import javax.persistence.Table;
-
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

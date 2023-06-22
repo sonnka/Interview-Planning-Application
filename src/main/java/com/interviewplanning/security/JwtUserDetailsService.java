@@ -4,7 +4,6 @@ import com.interviewplanning.model.user.User;
 import com.interviewplanning.model.user.UserRepository;
 import java.util.HashSet;
 import java.util.Set;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.security.core.GrantedAuthority;

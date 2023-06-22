@@ -7,7 +7,6 @@ import com.interviewplanning.model.user.User;
 import com.interviewplanning.model.week.Week;
 import com.interviewplanning.model.week.WeekService;
 import java.util.Optional;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -96,7 +95,8 @@ public class BookingLimitService {
     }
 
     if (bookingLimit <= 0) {
-      throw new BookingLimitException(BookingLimitException.BookingLimitExceptionProfile.INVALID_BOOKING_LIMIT);
+      throw new BookingLimitException(
+              BookingLimitException.BookingLimitExceptionProfile.INVALID_BOOKING_LIMIT);
     }
 
     Week nextWeek = weekService.getNextWeek();

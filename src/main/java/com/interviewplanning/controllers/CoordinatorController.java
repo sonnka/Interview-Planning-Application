@@ -25,7 +25,6 @@ import com.interviewplanning.model.week.WeekService;
 import com.interviewplanning.security.JwtUserDetails;
 import java.time.LocalDate;
 import java.util.Set;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.core.Authentication;

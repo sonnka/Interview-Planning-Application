@@ -1,9 +1,7 @@
 package com.interviewplanning.model.booking;
 
 import com.interviewplanning.exceptions.BookingException;
-
 import java.util.Set;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

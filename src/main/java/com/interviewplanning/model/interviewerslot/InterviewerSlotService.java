@@ -7,7 +7,6 @@ import com.interviewplanning.model.user.User;
 import com.interviewplanning.model.week.Week;
 import java.util.List;
 import java.util.Set;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -40,7 +39,8 @@ public class InterviewerSlotService {
   public InterviewerSlot findById(Long id) throws SlotException {
     return interviewerSlotRepository
         .findById(id)
-        .orElseThrow(() -> new SlotException(SlotException.SlotExceptionProfile.INTERVIEWER_SLOT_NOT_FOUND));
+        .orElseThrow(() -> new SlotException(
+                SlotException.SlotExceptionProfile.INTERVIEWER_SLOT_NOT_FOUND));
   }
 
   /**

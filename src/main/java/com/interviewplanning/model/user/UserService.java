@@ -3,7 +3,6 @@ package com.interviewplanning.model.user;
 import com.interviewplanning.exceptions.UserException;
 import com.interviewplanning.model.interviewerslot.InterviewerSlotService;
 import java.util.List;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

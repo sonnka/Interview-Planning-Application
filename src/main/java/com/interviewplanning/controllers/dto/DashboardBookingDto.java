@@ -2,7 +2,6 @@ package com.interviewplanning.controllers.dto;
 
 import com.interviewplanning.model.booking.Booking;
 import java.util.Objects;
-
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

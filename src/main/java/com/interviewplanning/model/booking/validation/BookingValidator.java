@@ -17,7 +17,6 @@ import com.interviewplanning.model.week.WeekService;
 import java.time.LocalDate;
 import java.util.Collection;
 import java.util.List;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
@@ -120,7 +119,8 @@ public class BookingValidator {
           .getBookingLimitForCurrentWeek(newInterviewer).getBookingLimit();
 
       if (bookingsNumber >= bookingLimit) {
-        throw new BookingLimitException(BookingLimitException.BookingLimitExceptionProfile.BOOKING_LIMIT_IS_EXCEEDED);
+        throw new BookingLimitException(
+                BookingLimitException.BookingLimitExceptionProfile.BOOKING_LIMIT_IS_EXCEEDED);
       }
     }
   }
