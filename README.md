@@ -242,16 +242,16 @@ First of all, you need to get the project. You can do this by two ways:
 - [Cloning the repository](#cloning-the-repository)
 
 #### Getting zip project file
-To download project in zip follow the [link](https://github.com/GrEFeRFeeD/intellistart-java-2022-oneweek/archive/refs/heads/main.zip).
+To download project in zip follow the [link](https://github.com/sonnka/Interview-Planning-Application.git).
 
-After downloading, unzip the archive and go to __intellistart-java-2022-oneweek-main__ directory.
+After downloading, unzip the archive and go to __Interview-Planning-Application-main__ directory.
 
 #### Cloning the repository
 To clone the repository run the console and type:
 
 `git clone https://github.com/GrEFeRFeeD/intellistart-java-2022-oneweek.git`
 
-After cloning is done change the directory to __intellistart-java-2022-oneweek-main__ by the following command:
+After cloning is done change the directory to __Interview-Planning-Application-main__ by the following command:
 
 `cd intellistart-java-2022-oneweek-main`
 
