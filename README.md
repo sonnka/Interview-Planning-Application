@@ -1,4 +1,4 @@
-# Oneweek - Interview Planning Application
+# Interview Planning Application
 
 ## Overview
 * [Project information](#project-information)
